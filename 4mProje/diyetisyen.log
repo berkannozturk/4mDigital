@@ -1,0 +1,21 @@
+2023-11-11 19:53:26.335  INFO 12400 --- [restartedMain] mProje.com.mProje.Application            : Starting Application using Java 19.0.1 on DESKTOP-V90BU82 with PID 12400 (C:\Java Projelerim\4mProje\target\classes started by Berkan in C:\Java Projelerim\4mProje)
+2023-11-11 19:53:26.335  INFO 12400 --- [restartedMain] mProje.com.mProje.Application            : No active profile set, falling back to 1 default profile: "default"
+2023-11-11 19:53:26.460  INFO 12400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-11-11 19:53:26.460  INFO 12400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-11 19:53:26.461  INFO 12400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-11-11 19:53:26.474  INFO 12400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-11 19:53:26.474  INFO 12400 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2023-11-11 19:53:26.482  WARN 12400 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6582762a-1915-46ae-bb67-af1cb6398fe8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-11 19:53:26.487  INFO 12400 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6780a94c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8e0f20b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5736c6d4, org.springframework.security.web.header.HeaderWriterFilter@33046fca, org.springframework.security.web.csrf.CsrfFilter@d868c8e, org.springframework.security.web.authentication.logout.LogoutFilter@71f81738, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@593738c1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@642c0428, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2058f26f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74800836, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64ea4353, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40c92795, org.springframework.security.web.session.SessionManagementFilter@6e6dd56b, org.springframework.security.web.access.ExceptionTranslationFilter@7c5be9c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52df49f9]
+2023-11-11 19:53:26.503  INFO 12400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-11-11 19:53:26.515  INFO 12400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-11 19:53:26.519  INFO 12400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-11-11 19:53:26.522  INFO 12400 --- [restartedMain] mProje.com.mProje.Application            : Started Application in 0.224 seconds (JVM running for 359.411)
+2023-11-11 19:53:26.522  INFO 12400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-11 19:54:43.134  INFO 12400 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-11 19:54:43.140  INFO 12400 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
